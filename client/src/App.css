@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap');
+
+/*---GLOBAL Layout STUFF---*/
+* {
+  font-family: Montserrat, sans-serif !important;
+  -webkit-font-smoothing:antialiased;
+}
+.logo {
+  font-weight: 900;
+  font-size: xx-large;
+}
+.dash-logo{
+  max-height: 36px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9f0ed;
+}
+
+
+/*--Side Navigation--*/
+.drawerHeaderIn{
+  background-color: #26442f;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  display: block;
+  align-items: center;
+  margin-top: 107px;
+  padding-top: 3px;
+  border-collapse: collapse;
+}
+.drawerHeaderOut{
+  background: #ffffff;
+  height: 135px;
+  display: block;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-collapse: collapse;
+}
+.volunteerBox{
+  padding:40px;
+  margin: 10px;
+  text-transform: uppercase;
+  color: rgb(141, 141, 141);
+}
+.drawerHeaderProfile{
+  background: #f0f0f0;
+  border-top: 1px solid #e2e2e2;
+  padding: 25px 30px;
+  color: gray;
+  text-align: center;
+  height: 84px;
+}
+.navOne {
+  padding: 23px;
+  display: block;
+  align-items: center;
+  color: rgb(107, 107, 107);
+  background: #fff;
+  text-decoration: none;
+  font-size: small;
+  font-weight: 400;
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+.navOne:hover {
+  background: #F1F1F1;
+}
+.navTwo {
+  padding: 23px;
+  display: flex;
+  align-items: center;
+  color: rgb(107, 107, 107);
+  background: #fff;
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+.navTwo:hover {
+  background: #f1f1f1;
+}
+
+.navLinkText {
+  margin-left: 20px;
+}
+
+.infoBarText {
+  margin-left: 500px;
+}
+
+/* Referral Details AND Modal */
+.refNum {
+  color: #86bd48;
+}
+.editbtn{
+  font-size: 11pt;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.refRows {
+  background-color: #f8f8f8;
+}
+.refInf {
+  padding-right: 10px;
+}
+.refItemInputs:disabled {
+  background: none;
+  border: none;
+  padding: 7px;
+  resize: none;
+}
+.refItemInputs3:disabled {
+  background: none;
+  border: none;
+  padding: 7px;
+  resize: none;
+}
+.refItemInputs {
+  padding: 5px;
+  resize: none;
+}
+.refItemInputs2 {
+  padding: 5px;
+  resize: none;
+  border: none;
+  text-align: center;
+}
+.refItemInputs3 {
+  padding: 5px;
+  width: 90%;
+  resize: none;
+}
+.refAssignButton {
+  background: none;
+  color: #1625fb;
+  text-decoration: underline;
+  height: 20px;
+  width: auto;
+  cursor: pointer;
+  border:none;
+}
+.refInputs:disabled {
+border: none;
+background:none;
+  width: 130px;
+  padding: 7px;
+  margin-left: 5px;
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+.refInputs {
+  width: 130px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+.refDate1 {
+  font-weight: 600;
+  padding-right: 25px;
+}
+.refDate2 {
+  font-weight: 600;
+  padding-right: 15px;
+}
+.refDate3 {
+  font-weight: 600;
+  padding-right: 39px;
+}
+.refDate4 {
+  font-weight: 600;
+  padding-right: 5px;
+}
+.refDateBlock {
+  background-color: #d6f3e8be;
+}
+
+.refModalBody {
+  font-weight: 300;
+}
+
+/*---Modal close button--*/
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0 , 0)!important;
+}
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root {
+  border-radius: 2px!important;
+  background-color: rgba(255, 255, 255);
+}
+.css-lc2yqr-MuiButtonBase-root-MuiIconButton-root {
+  width: 35px;
+  height: 35px;
+  background-color: rgba(255, 0, 0, 0.616)!important;
+  color: white!important;
+  border-radius: 3px!important;
+  margin-top: 10px;
+}
+.css-lc2yqr-MuiButtonBase-root-MuiIconButton-root:hover {
+  background-color: rgba(255, 0, 0, 0.787)!important;
+}
+
+/*---button sizing mui---*/
+
+.MuiAutocomplete-clearIndicator {
+margin: -10px!important;
+}
+
+.MuiAutocomplete-endAdornment {
+margin: -10px!important;
+}
+button.MuiButtonBase-root {
+  margin: 10px;
+  width: auto;
+  box-shadow: none;
+}
+
+button.MuiButtonBase-root span span {
+  padding-right: 50px;
+}
+button.MuiButtonBase-root span span {
+  padding-right: 50px;
+}
+
+span.MuiButtonBase-root {
+  margin-left: 10px;
+  width: 500;
+}
+span.MuiButtonBase-root span {
+  padding-right: 10px;
+}
+
+/* LOGIN AND REGISTRATION */
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border: 2px solid #86c341;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.manageContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border: 2px solid #86c341;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.2);
+  position: relative;
+  align-items: center;
+}
+
+
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border: 2px solid #86c341;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.2);
+}
+
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+
+
+/* Invoice Page */
+.printCon {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border: 2px solid #86c341;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.2);
+}
+
+#reportHeader{
+  float: left;
+  padding-left: 15%;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+#reportLogo{
+  float:left;
+  padding-left: 40%;
+  
+  }
+
+#referInformation{
+  padding-left: 20%;
+  float: left;
+ font-size: large;
+ font-weight: bold;
+}
+
+
+#studentInformation{
+float: left;
+padding-left: 35%;
+font-size: large;
+font-weight: bold;
+}
+
+#middleInfo{
+text-align: left;
+font-size: 25px;
+padding-left: 35%;
+
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.styled-table thead tr {
+  background-color: #86c341;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 15px 20px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #86c341;
+}
+
+#reportTable{
+  float: left;
+  padding-left: 20%;
+}
+
+#sideInfo{
+float: left;
+padding-left: 5%;
+padding-top: 3%;
+font-size: 25px;
+}
+
+#printButton{
+border-radius: 4px;
+background-color: grey;
+
+}
+
+@media print{
+  .navbar{display: none;}
+  #printButton{display: none;}
+  #reportHeader{display: none;}
+  #reportLogo{display: none;}
+
+  #middleInfo{font-size: small;}
+  #studentInformation{font-size: small;}
+  #referInformation{font-size: small;}
+  #sideInfo{font-size: small;}
+}
