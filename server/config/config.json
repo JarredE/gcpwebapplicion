@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "",
-    "database": "unfdb",
-    "host": "localhost",
+    "username": "gcpdatabase@gcpdatabase321",
+    "password": "Testing321",
+    "database": "gcpdatabase321",
+    "host": "gcpdatabase321.mysql.database.azure.com",
     "dialect": "mysql"
   },
   "test": {
