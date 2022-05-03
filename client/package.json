@@ -37,7 +37,7 @@
     "eject": "react-scripts eject",
     "server": "cd .. && cd server && npm start",
     "client": "react-scripts start",
-    "dev": "concurrently \"npm run server\" \" npm run client\""
+    "dev": "concurrently \"npm run server\" \" npm run build\""
   },
   "proxy": "http://localhost:3000",
   "eslintConfig": {
